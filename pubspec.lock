@@ -2,12 +2,12 @@
 # See https://dart.dev/tools/pub/glossary#lockfile
 packages:
   animator:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: animator
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.0"
+    version: "3.0.0"
   async:
     dependency: transitive
     description:
@@ -226,6 +226,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.1"
+  pull_to_refresh:
+    dependency: "direct main"
+    description:
+      name: pull_to_refresh
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.6.3"
   sky_engine:
     dependency: transitive
     description: flutter

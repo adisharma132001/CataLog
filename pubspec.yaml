@@ -31,11 +31,14 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^2.1.0
   velocity_x: ^3.2.0
+  pull_to_refresh: 1.6.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    
+   
+dependency_overrides:
+  animator: 3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
