@@ -4,15 +4,12 @@ import 'package:flutter/foundation.dart';
 
 class CatalogModel{
 
-static List<Item> items=[
-   Item(
-     id:1,
-     name: " Apple iphone 12 pro", 
-     desc: "Apple iphone 12 Generation", 
-     price: 999,
-     color: "#33505a", 
-     image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021661000")
-     ];
+static List<Item> items=items;
+   static Item getById(int id) => items.firstWhere((element) => element.id==id , orElse: null);
+   
+     
+   static Item getByPosition(int pos)=> items[pos];  
+    
 }
 
 
