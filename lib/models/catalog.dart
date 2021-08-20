@@ -4,6 +4,12 @@ import 'package:flutter/foundation.dart';
 
 class CatalogModel{
 
+  static final catModel = CatalogModel.internal();
+
+  CatalogModel.internal();
+
+  factory CatalogModel() => catModel;
+
 static List<Item> items=items;
 
   get get => null;
