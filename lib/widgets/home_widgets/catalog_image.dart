@@ -1,4 +1,4 @@
-import 'package:catalog/widgets/themes.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:velocity_x/velocity_x.dart';
 
