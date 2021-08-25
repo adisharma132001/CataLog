@@ -1,5 +1,6 @@
 import 'package:catalog/models/catalog.dart';
 import 'package:catalog/pages/home_detail_page.dart';
+import 'package:catalog/utils/routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -17,11 +18,7 @@ class CatalogList extends StatelessWidget {
       itemBuilder: (context,index){
         final catalog =CatalogModel.items[index];
         return InkWell(
-          onTap: () => Navigator.push(
-            context, 
-            MaterialPageRoute(
-              builder: (context)=>HomeDetailpage(
-                catalog: catalog),),),
+          onTap: () => context.vxNav.push(Uri.parse(MyRoutes.homeDetailsRoute),params: catalog),
           child: CatalogItem(catalog:catalog));
       }
       );

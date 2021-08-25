@@ -46,7 +46,7 @@ class HomeDetailpage extends StatelessWidget {
              10.heightBox,
              "Ex in nulla ut deserunt ex et ipsum consectetur esse. Minim consectetur aliquip voluptate cupidatat sint cillum aliquip incididunt ea velit. Amet do commodo minim elit ex velit cupidatat cillum ex dolore anim excepteur. Irure cillum incididunt deserunt labore. In laboris ipsum aliquip et labore. Aliquip sunt ex aute nisi amet quis deserunt esse velit. Consectetur nisi dolore eiusmod eu ad veniam exercitation non magna officia.".text.make().p16()
              ],
-                ).py64(),
+                ).py32(),
                            ),
               ))
         ],
